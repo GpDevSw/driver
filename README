@@ -1,0 +1,41 @@
+AOIDE DAC DRIVERS FOR Raspberry PI
+
+AOIDE DAC Pro
+AOIDE DAC II
+AOIDE Digi Pro
+AOIDE Zero DAC+
+AOIDE ZPOD DAC
+Raspi Voice HAT  
+
+www.aoide.cc
+
+For Raspbian,Raspberry OS,DietPI
+git clone https://github.com/howardqiao/aoide-dac-drivers.git
+cd aoide-dac-drivers
+sudo ./dac_install.sh
+
+    ┌────────┤ AOIDE DAC Drivers Installer(V5.10.17)  ├────────┐
+    │ Select your DAC(Sound Card).                             │
+    │                                                          │
+    │                    1 AOIDE DAC Pro                       │
+    │                    2 AOIDE DAC II                        │
+    │                    3 AOIDE Digi Pro                      │
+    │                    4 AOIDE Zero DAC+                     │
+    │                    5 AOIDE ZPOD DAC                      │
+    │                    6 Raspi Voice HAT                     │
+    │                    D Disable DAC                         │
+    │                    E Exit                                │
+    │                                                          │
+    │                                                          │
+    │                                                          │
+    │              <Ok>                  <Exit>                │
+    │                                                          │
+    └──────────────────────────────────────────────────────────┘
+
+For Aoide TFT Screen based on raspbian
+curl -L --output ./aoidetft_setup.sh https://github.com/howardqiao/aoide-dac-drivers/raw/master/aoidetft_setup.sh && chmod +x ./aoidetft_setup.sh
+sudo ./aoidetft_setup.sh
+
+For Aoide TFT Screen based on retropie
+curl -L --output ./aoiderp_setup.sh https://github.com/howardqiao/aoide-dac-drivers/raw/master/aoiderp_setup.sh && chmod +x ./aoiderp_setup.sh
+sudo ./aoiderp_setup.sh
